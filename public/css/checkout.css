@@ -4,22 +4,34 @@
 	background-color: white;
 	border-style: outset;
 	border-color: black;
-	display: inline-flex;
-	font-size: 24px;
-	font-family: arial;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
 	height:auto;
-	line-height: 150%;
 	padding: 30px;
-	text-align: center;
+	text-align: left;
 	width: auto;
-
 }
+
 #co_content{
 	margin-left: 30px;
 	margin-right: 30px;
 }
+
 #co_header{
 	font-family: 'Rubik', sans-serif; 
 	color: #5350C2;
 	font-size: 38px;
+}
+
+#del_hdr{
+	font-family: 'Rubik', sans-serif; 
+	color: #5350C2;
+	font-size: 22px;
+}
+
+#smol_help{
+	font-family: 'Rubik', sans-serif; 
+	color: #5350C2;
+	font-size: 14px;
 }
