@@ -9,7 +9,7 @@ function globScr(){
 	  }
 	}
 
-	document.getElementById("travel").addEventListener("click", menuCompress); 
+	document.getElementById("navMenu").addEventListener("click", menuCompress); 
 
 	
 };

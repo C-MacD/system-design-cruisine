@@ -8,12 +8,12 @@
 	<script src="../public/js/checkout.js"></script>
 	<script src="https://kit.fontawesome.com/d68c554dc2.js" crossorigin="anonymous"></script>
 
-	<title>Order </title>
+	<title>Order</title>
 </head>
 <body>
-	<div class="nav_menu" id="navMenu">
-	  <a href="#browse"><b>START SHOPPING</b></a>
-	  <a href="#home">Home</a>
+	<a href="#home"><h1 id="logo"><i class="fas fa-car-side"></i>Cruisine</h1></a>
+	<div class="nav_menu" id="navMenu" name="nM">
+	  <a href="#browse" class="active"><b>START SHOPPING</b></a>
 	  <a href="#about">About</a>
 	  <a href="#faq">FAQ</a>
 	  <a href="javascript:void(0);" class="compass" id="compass">
@@ -21,9 +21,18 @@
 	  </a>
 	</div>
 
-	<h1>CHECKOUT</h1>
-	 <div align="center" id="centerpiece">
-	  	<h5>Hello</h5>
+	<!-- EVERYTHING BELOW THIS LINE IS NOT UNIVERSAL AND IS CONTENT FOR CHECKOUT!!!! -->
+	<div id="co_content">
+		<h1 id="co_header"><i class="fas fa-dolly"></i> CHECKOUT</h1>
+		 <div align="center" id="centerpiece">
+		  	<form>
+			  <label for="fname">First name:</label>
+			  <input type="text" id="fname" name="fname"><br>
+			  <label for="lname">Last name:</label>
+			  <input type="text" id="lname" name="lname">
+			</form>
+		</div>
 	</div>
+	
 </body>
 </html>
