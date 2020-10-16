@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  gap:3rem;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+form>button{
+    flex-grow: 2;
+}
+
+form>input{
+    flex-shrink: .5;
+}
