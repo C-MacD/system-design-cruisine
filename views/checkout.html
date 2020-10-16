@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="../public/css/global.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/checkout.css">
+	<script src="../public/js/global.js"></script>
+	<script src="../public/js/checkout.js"></script>
+	<script src="https://kit.fontawesome.com/d68c554dc2.js" crossorigin="anonymous"></script>
+
+	<title>Order</title>
+</head>
+<body>
+	<a href="#home"><h1 id="logo"><i class="fas fa-car-side"></i>Cruisine</h1></a>
+	<div class="nav_menu" id="navMenu" name="nM">
+	  <a href="#browse" class="active"><b>START SHOPPING</b></a>
+	  <a href="#about">About</a>
+	  <a href="#faq">FAQ</a>
+	  <a href="javascript:void(0);" class="compass" id="compass">
+	  	<i class="far fa-compass"></i>
+	  </a>
+	</div>
+
+	<!-- EVERYTHING BELOW THIS LINE IS NOT UNIVERSAL AND IS CONTENT FOR CHECKOUT!!!! -->
+	<div id="co_content">
+		<h1 id="co_header"><i class="fas fa-dolly"></i> CHECKOUT</h1>
+		 <div align="center">
+		 	<div align="center" id="centerpiece">
+			  	<form>
+				  <label for="fname">First name:</label>
+				  <input type="text" id="fname" name="fname"><br>
+				  <label for="lname">Last name:</label>
+				  <input type="text" id="lname" name="lname">
+				</form>
+				<p>----------------------------------------------</p>
+				<form>
+				  <label for="billname">Billing Name:</label>
+				  <input type="text" id="billname" name="billname"><br>
+				  <label for="cardnum">Card Number:</label>
+				  <input type="text" id="cardnum" name="cardnum"><br>
+				  <label for="expdate">Exp. Date:</label>
+  				  <input type="date" id="expdate" name="expdate"><br>
+  				  <label for="cvc">CVC:</label>
+				  <input type="text" id="cvc" name="cvc">
+				</form>
+				<p>----------------------------------------------</p>
+				<a href="#confirmation" class="thm_button">CONFIRM ORDER</a>
+			</div>
+			<div align="center" id="centerpiece">
+			  	<h4 id="del_hdr">Delivering to...   <i class="fas fa-map-marked-alt"></i></h4>
+			  	<p>We'll deliver your groceries to the following address:</p>
+			  	<p>6789 Your Road</p>
+			  	<p>Suite 456</p>
+			  	<p>Your City, YS, United States 12345</p>
+			  	<a href="#settings" id="smol_help">Not your address? You can change this in Settings.</a><br>
+			  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.899827580818!2d-73.93663858522316!3d41.7226803792349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd3e012d2c644d%3A0x8f14874c1462eb0a!2sMarist%20College%20Hancock%20Center!5e0!3m2!1sen!2sus!4v1602731578831!5m2!1sen!2sus" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
