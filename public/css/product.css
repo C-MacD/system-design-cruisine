@@ -1,24 +1,46 @@
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 main {
   display: flex;
-  gap:3rem;
+  gap: 3rem;
 }
 
-div{
-    display: flex;
-    flex-direction: column;
-    gap:2rem;
+main div {
+  display: flex;
+  flex-direction: column;
 }
 
-form{
-    display: flex;
-    flex-direction: row;
-    gap:1rem;
+#left {
+  flex-shrink: 22;
 }
 
-form>button{
-    flex-grow: 2;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-form>input{
-    flex-shrink: .5;
+#right {
+  flex-grow: 2;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+form > button {
+  flex-grow: 2;
+}
+
+form > input {
+  max-width: 20%;
+  height: auto;
 }

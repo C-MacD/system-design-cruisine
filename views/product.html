@@ -10,23 +10,37 @@
 
 <body>
     <header>
-        <h1>header</h1>
+
+        <div class="nav_menu" id="navMenu" name="nM">
+            <a href="#home">
+                <h1 id="logo"><i class="fas fa-car-side"></i>Cruisine</h1>
+            </a>
+            <a href="#browse" class="active"><b>START SHOPPING</b></a>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+            <a href="javascript:void(0);" class="compass" id="compass">
+                <i class="far fa-compass"></i>
+            </a>
+        </div>
     </header>
     <main>
-        <div>
+        <div id="left">
             <img src="../public/assets/product-placeholder.png" alt="Product image">
+            <p style="align-self: center;">$1.89</p>
             <form>
                 <label>Quantity:</label>
                 <input type="number" value="1"></input>
                 <button>Add to cart</button>
             </form>
         </div>
-        <div>
+        <div id="right">
             <h2>Product Name</h2>
             <p>Words go here</p>
         </div>
     </main>
 
+    <script src="../public/js/global.js"></script>
+    <script src="https://kit.fontawesome.com/d68c554dc2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
