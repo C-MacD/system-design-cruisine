@@ -9,25 +9,34 @@ header h1 {
 
 main {
   display: flex;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
 main div {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  border:solid lightgray;
+  padding: 20px;
+ 
 }
 
-#left {
-  flex-shrink: 22;
+#first {
+}
+
+#second {
+  max-width: 500px;
+}
+
+#third{
+    margin-left: auto;
+    max-width: 150px;
 }
 
 img {
   max-width: 100%;
   height: auto;
-}
-
-#right {
-  flex-grow: 2;
 }
 
 form {
@@ -43,4 +52,8 @@ form > button {
 form > input {
   max-width: 20%;
   height: auto;
+}
+
+#third>img{
+    width: 50%;
 }
