@@ -1,8 +1,7 @@
-# system-design-project
-System Design CMPT 330 project. Colin MacDonald, Erin Alvarico, Elizabeth Bellissimo, Melissa Aguilar. 
-
 # CRUSINE
 ## - Insert Tagline here -
+System Design CMPT 330 Project under the supervision of Professor Jim Corwley.
+Designed and created by Team Platinum: Colin MacDonald, Erin Alvarico, Elizabeth Bellissimo, Melissa Aguilar.
 
 -------------------------------
 
