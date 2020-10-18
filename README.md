@@ -1,6 +1,7 @@
 # CRUSINE
 ## - Insert Tagline here -
-System Design CMPT 330 Project under the supervision of Professor Jim Corwley.
+System Design CMPT 330 Project under the supervision of Professor Jim Crowley.
+
 Designed and created by Team Platinum: Colin MacDonald, Erin Alvarico, Elizabeth Bellissimo, Melissa Aguilar.
 
 -------------------------------
