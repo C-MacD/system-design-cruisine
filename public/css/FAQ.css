@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
-#centerpiece{
-	background-color: white;
-	border-style: outset;
-	border-color: black;
-	display: inline-block;
-	font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	height:auto;
-	padding: 30px;
-	text-align: left;
-	width: auto;
-}
 
 #co_content{
 	margin-left: 30px;
@@ -24,14 +12,32 @@
 	font-size: 38px;
 }
 
-#del_hdr{
-	font-family: 'Rubik', sans-serif;
-	color: #5350C2;
-	font-size: 22px;
+
+.gq{
+    background-color: #eee;
+    color: #5350C2;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
 }
 
-#smol_help{
-	font-family: 'Rubik', sans-serif;
-	color: #5350C2;
-	font-size: 14px;
+.active, .accordion:hover {
+    background-color: #ccc;
 }
+
+.panel {
+    padding: 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+
+
