@@ -20,7 +20,7 @@
 
 html{
     font-family: 'Rubik', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 	color: #5350C2;
 	box-sizing: border-box;
 }
@@ -43,12 +43,39 @@ section{
 }
 
 .accordion-item{
-    background-color: #dfdeff;
+    background-color: #FF9100;
     border-radius: .4rem;
     margin-bottom: 1rem;
     padding: 1rem;
     box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
 
+.accordion-link{
+    font-size: 1.6rem;
+    color: rgba(255,255,255, .8);
+    text-decoration: none;
+    background-color: #FF9100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link i{
+    color: #000000;
+    padding: .5rem;
+}
+
+.accordion-link .ion-md-remove{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color:
 
 }
 
