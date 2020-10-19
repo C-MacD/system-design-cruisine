@@ -13,6 +13,10 @@ label{
   font-size: 18px;
 }
 
+#cart{
+  text-align: right;
+}
+
 #logo{
   font-size: 40px;
   font-style: oblique;
