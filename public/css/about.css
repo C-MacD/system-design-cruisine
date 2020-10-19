@@ -38,6 +38,19 @@ p{
 
 }
 
+h2{
+    color: orange;
+}
+
 ul{
     text-align: left;
+}
+
+.copyright{
+    align-content: center;
+    text-align: center;
+    color: white;
+    background-color: #2E1B10;
+    padding: 20px;
+    margin: 40px 0px 0px 0px;
 }
