@@ -98,7 +98,7 @@ section{
 }
 
 .accordion-item:target .answer{
-    max-height: 20rem;
+    max-height: 40rem;
 }
 
 .accordion-item:target .accordion-link .ion-md-add{
