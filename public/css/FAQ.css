@@ -39,7 +39,7 @@ section{
     width: 100%
     max-width: 80rem;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 4.5rem;
 }
 
 .accordion-item{
@@ -51,7 +51,7 @@ section{
 }
 
 .accordion-link{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: rgba(255,255,255, .8);
     text-decoration: none;
     background-color: #FF9100;
@@ -94,7 +94,7 @@ section{
 .answer p{
     font-size: 1.4rem;
     color: rgba(255,255,255, .9);
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .accordion-item:target .answer{
