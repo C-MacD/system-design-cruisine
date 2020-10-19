@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.about{
+    align-content: center;
+    padding: 60px 60px 60px 100px;
+}
+
+.about_crusine{
+    align-content: center;
+    padding: 40px;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.20);
+}
+
+.about_platinum{
+    align-content: center;
+        padding: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.20);
+}
+
+p{
+    padding: 20px 0px 20px 0px;
+    font-size: 16px;
+}
+
+.title{
+    font-size: 40px;
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+ul{
+    text-align: left;
+}
