@@ -19,7 +19,27 @@ label{
   color: #FF9100;
   margin-left: 30px;
   margin-right: 30px;
+  text-align: left;
   text-shadow: 2px 2px 1px #633400;
+}
+
+#signup_header{
+  font-size: 16px;
+  font-style: italic;
+  color: #FF9100;
+  text-shadow: 1px 1px #633400;
+}
+
+.logoDiv{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.logoItem{
+  padding: 20px;
+  text-align: right;
 }
 
 .thm_button{
