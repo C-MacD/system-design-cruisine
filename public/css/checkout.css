@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
-#centerpiece{
+.centerpiece{
 	background-color: white;
 	border-style: outset;
 	border-color: black;
@@ -14,14 +14,22 @@
 }
 
 #co_content{
-	margin-left: 30px;
-	margin-right: 30px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 10px;
 }
 
 #co_header{
 	font-family: 'Rubik', sans-serif; 
 	color: #5350C2;
 	font-size: 38px;
+	text-align: left;
+}
+
+#co_item{
+  padding: 20px;
+  text-align: center;
 }
 
 #del_hdr{
