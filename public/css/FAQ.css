@@ -43,7 +43,7 @@ section{
 }
 
 .accordion-item{
-    background-color: #FF9100;
+    background-color: #fafafa;
     border-radius: .4rem;
     margin-bottom: 1rem;
     padding: 1rem;
@@ -52,9 +52,9 @@ section{
 
 .accordion-link{
     font-size: 1.8rem;
-    color: rgba(255,255,255, .8);
+    color: #FF9100;
     text-decoration: none;
-    background-color: #FF9100;
+    background-color: #fafafa;
     width: 100%;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ section{
     max-height: 0;
     overflow: hidden;
     position: relative;
-    background-color: #ffaa3b;
+    background-color: #FF9100;
     transition: max-height 800ms;
 
 }
@@ -92,9 +92,14 @@ section{
 }
 
 .answer p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: rgba(255,255,255, .9);
     padding: 1.5rem;
+}
+
+.answer li{
+    font-size: 1.2rem;
+    color: #5350C2;
 }
 
 .accordion-item:target .answer{
