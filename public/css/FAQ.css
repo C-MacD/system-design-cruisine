@@ -75,7 +75,29 @@ section{
     max-height: 0;
     overflow: hidden;
     position: relative;
-    background-color:
+    background-color: #ffaa3b;
+
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #5350C2;
+    top: 50%
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p{
+    font-size: 1.4rem;
+    color: rgba(255,255,255, .6);
+    padding: 2rem;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
 
 }
 
