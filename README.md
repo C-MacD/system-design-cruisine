@@ -1,5 +1,5 @@
 # CRUISINE
-## The Groceries You Need, Delivered Your Way
+> The Groceries You Need, Delivered Your Way
 System Design CMPT 330 
 Project under the supervision of Professor Jim Crowley.
 
