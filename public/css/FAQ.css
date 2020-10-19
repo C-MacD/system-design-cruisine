@@ -76,6 +76,7 @@ section{
     overflow: hidden;
     position: relative;
     background-color: #ffaa3b;
+    transition: max-height 800ms;
 
 }
 
@@ -83,7 +84,7 @@ section{
     content: "";
     position: absolute;
     width: .6rem;
-    height: 90%;
+    height: 200%;
     background-color: #5350C2;
     top: 50%
     left: 0;
@@ -92,17 +93,21 @@ section{
 
 .answer p{
     font-size: 1.4rem;
-    color: rgba(255,255,255, .6);
+    color: rgba(255,255,255, .9);
     padding: 2rem;
 }
 
 .accordion-item:target .answer{
     max-height: 20rem;
-
 }
 
+.accordion-item:target .accordion-link .ion-md-add{
+    display: none;
+}
 
-
+.accordion-item:target .accordion-link .ion-md-remove{
+    display: block;
+}
 
 
 
