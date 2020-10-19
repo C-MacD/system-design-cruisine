@@ -6,6 +6,11 @@
     height: auto;
 }
 
+.slidecred {
+	display:none;
+	font-size: 10px;
+}
+
 .centerpiece{
 	background-color: white;
 	border-style: outset;
