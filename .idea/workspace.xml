@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="deleted multi files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presento/blog-single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presento/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presento/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Presento/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap-POC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap-POC/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,5 +161,13 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1604175645033" />
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604176474313">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604176474313" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604176478994">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604176478994" />
   </component>
 </project>
