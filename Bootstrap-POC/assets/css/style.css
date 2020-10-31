@@ -1,5 +1,5 @@
 /**
-* Template Name: Presento - v2.0.1
+* Template Name: Bootstrap-POC - v2.0.1
 * Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -7,6 +7,8 @@
 
 /*--------------------------------------------------------------
 # General
+
+FF9100
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -14,12 +16,12 @@ body {
 }
 
 a {
-  color: #e03a3c;
+  color: #ff9100;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e76668;
+  color: #ffb14a;
   text-decoration: none;
 }
 
@@ -46,13 +48,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #e03a3c;
+  background: #ff9100;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #e35052;
+  background: #ffb14a;
   color: #fff;
 }
 
@@ -87,14 +89,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+
 }
 
 #header .logo a {
-  color: #111111;
+  color: #ff9100;
 }
 
 #header .logo a span {
-  color: #e03a3c;
+  color: #5350C2;
 }
 
 #header .logo img {
@@ -133,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #111111;
+  color: #5350C2;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
@@ -141,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #e03a3c;
+  color: #7300ff;
 }
 
 .nav-menu .drop-down ul {
@@ -176,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #e03a3c;
+  color: #7300ff;
 }
 
 .nav-menu .drop-down > a:after {
@@ -219,10 +222,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Get Startet Button */
+/* Get Started Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #e03a3c;
+  background: #ff9100;
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px;
@@ -273,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #FF9100;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
