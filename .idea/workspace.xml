@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="" />
+    <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/system-design-cruisine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/system-design-cruisine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,5 +153,11 @@
     <MESSAGE value="adding css" />
     <MESSAGE value="deleted faq_script.js" />
     <option name="LAST_COMMIT_MESSAGE" value="deleted faq_script.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604175645033">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1604175645033" />
   </component>
 </project>
