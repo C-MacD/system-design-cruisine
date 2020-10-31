@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+html{background-image: radial-gradient(rgb(255, 255, 255),rgb(182, 219, 242));}
+
+body{
+  font-family: 'Heebo', sans-serif;
+  margin: 0px;
+}
+
+label{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+#cart{
+  text-align: right;
+}
+
+#logo{
+  font-size: 40px;
+  font-style: oblique;
+  color: #FF9100;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
+  text-shadow: 2px 2px 1px #633400;
+}
+
+#signin{
+  font-size: 14px;
+}
+
+#signup{
+  font-size: 14px;
+}
+
+#signup_header{
+  font-size: 16px;
+  font-style: italic;
+  color: #FF9100;
+  text-shadow: 1px 1px #633400;
+}
+
+.logoDiv{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.logoItem{
+  padding: 20px;
+  text-align: right;
+}
+
+.thm_button{
+  background-color: #FF9100;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.thm_button:hover {
+  background-color: #633400;
+  color: white;
+  
+}
+
+.nav_menu {
+  overflow: hidden;
+  background-color: #2E1B10;
+}
+
+.nav_menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav_menu a:hover {
+  background-color: #FF9100;
+  color: black;
+}
+
+.nav_menu a.active {
+  background-color: #5350C2;
+  color: white;
+}
+
+.nav_menu .compass {
+  display: none;
+}
+
+.nav_menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+.homeslide {
+  max-width: 100%;
+    height: auto;
+}
+
+.slidecred {
+  display:none;
+  font-size: 10px;
+}
+
+.centerpiece{
+  background-color: white;
+  border-style: outset;
+  border-color: black;
+    display: inline-block;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  height:auto;
+  text-align: left;
+  width: auto;
+}
+
+#hm_content{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+#hm_header{
+  font-family: 'Rubik', sans-serif; 
+  color: #5350C2;
+  font-size: 42px;
+}
+
+#hm_item{
+  padding: 20px;
+  text-align: center;
+}
+
+#browselab{
+  font-family: 'Rubik', sans-serif; 
+  color: #5350C2;
+  font-size: 14px;
+}
+
+#del_hdr{
+  font-family: 'Rubik', sans-serif; 
+  color: #5350C2;
+  font-size: 22px;
+}
