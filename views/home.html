@@ -46,8 +46,9 @@
 		</div>
 
 		<br>
+		<h2>Start shopping now</h2>
+		<br>
 
-		
 		<div id="homeItems"></div>
 
 	</div>
@@ -58,7 +59,7 @@
 	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 
 	<!-- Load our React component. -->
-	<div id="addToCart"></div>
+	<!-- <div id="addToCart"></div> -->
 
 	<!-- This is required to use JSX -->
 	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
@@ -118,6 +119,34 @@
 				imageUrl: 'https://i5.peapod.com/c/P8/P8JJ8.jpg',
 			},
 		};
+		const cheese = {
+			text: '$5.50',
+			item: {
+				name: 'Cheese',
+				imageUrl: 'https://i5.peapod.com/c/LK/LKQ0B.jpg',
+			},
+		};
+		const potatoes = {
+			text: '$1.00',
+			item: {
+				name: 'Potatoes',
+				imageUrl: 'https://i5.peapod.com/c/BX/BXCQV.jpg',
+			},
+		};
+		const peppers = {
+			text: '$1.66',
+			item: {
+				name: 'Peppers',
+				imageUrl: 'https://i5.peapod.com/c/3T/3TXBE.jpg',
+			},
+		};
+		const mustard = {
+			text: '$1.89',
+			item: {
+				name: 'Mustard',
+				imageUrl: 'https://i5.peapod.com/c/FH/FH4VM.png',
+			},
+		};
 		ReactDOM.render(
 			<div id='theHomeItems'>
 				<Item
@@ -131,6 +160,22 @@
 				<Item
 					item={eggs.item}	
 					text={eggs.text}
+				/>
+				<Item
+					item={cheese.item}	
+					text={cheese.text}
+				/>
+				<Item
+					item={potatoes.item}	
+					text={potatoes.text}
+				/>
+				<Item
+					item={peppers.item}	
+					text={peppers.text}
+				/>
+				<Item
+					item={mustard.item}	
+					text={mustard.text}
 				/>
 				
 				
