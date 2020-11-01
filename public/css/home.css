@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
+.Item{
+	background: white;
+	border: solid;
+	padding: 20px;
+	margin: 30px;
+}
+
+#theHomeItems{
+	display: flex;
+	flex-direction: row;
+}
+
 .homeslide {
 	display:none;
 	max-width: 100%;

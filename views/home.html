@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="../public/css/global.css">
 	<link rel="stylesheet" type="text/css" href="../public/css/home.css">
 	<script src="../public/js/global.js"></script>
-	<script src="../public/js/home.js"></script>
+	<!-- <script src="../public/js/home.js"></script> -->
 	<script src="https://kit.fontawesome.com/d68c554dc2.js" crossorigin="anonymous"></script>
 
 	<title>Cruisine Home</title>
@@ -47,8 +47,8 @@
 
 		<br>
 
-		<div id="react_container"></div>
-
+		
+		<div id="homeItems"></div>
 
 	</div>
 
@@ -58,6 +58,87 @@
 	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 
 	<!-- Load our React component. -->
+	<div id="addToCart"></div>
+
+	<!-- This is required to use JSX -->
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+
+
+
+	<script type="text/babel">
+		function Image(props) {
+			return (
+				<img
+					className="Image"
+					src={props.itemInfo.imageUrl}
+					alt={props.itemInfo.name}
+					width = "100px"
+				/>
+			);
+		}
+
+		function Title(props) {
+			return (
+				<div className="Title">
+					<Image itemInfo={props.itemInfo} />
+					<div className="Title-name">{props.itemInfo.name}</div>
+				</div>
+			);
+		}
+
+		function Item(props) {
+			return (
+				<div className="Item">
+					<Title itemInfo={props.item} />
+					<div className="Item-text">{props.text}</div>
+					<button>Add to Cart</button>
+				</div>
+			);
+		}
+
+		const apple = {
+			text: '$1.99/lb',
+			item: {
+				name: 'Apple',
+				imageUrl: 'https://i5.peapod.com/c/SO/SOV9U.jpg',
+			},
+		};
+		const banana = {
+			text: '$0.74/lb',
+			item: {
+				name: 'Banana',
+				imageUrl: 'https://i5.peapod.com/c/7N/7N2G6.jpg',
+			},
+		};
+		const eggs = {
+			text: '$3.99',
+			item: {
+				name: 'Eggs',
+				imageUrl: 'https://i5.peapod.com/c/P8/P8JJ8.jpg',
+			},
+		};
+		ReactDOM.render(
+			<div id='theHomeItems'>
+				<Item
+					item={apple.item}	
+					text={apple.text}
+				/>
+				<Item
+					item={banana.item}	
+					text={banana.text}
+				/>
+				<Item
+					item={eggs.item}	
+					text={eggs.text}
+				/>
+				
+				
+			</div>,
+			document.getElementById('homeItems')
+		);
+	</script>
+
 	<script src="../public/js/home-react.js"></script>
 
 </body>
