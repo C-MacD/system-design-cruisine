@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Bootstrap-POC/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap-POC/assets/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604339581415</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Finished color scheme">
+      <created>1604339912339</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604339912339</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,17 +205,18 @@
     <MESSAGE value="deleted multi files" />
     <MESSAGE value="testing" />
     <MESSAGE value="editing color scheme" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing color scheme" />
+    <MESSAGE value="Finished color scheme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished color scheme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604175645033">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1604175645033" />
-    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604339581274">
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604339912196">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604339581274" />
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604339912196" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604336655479">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
