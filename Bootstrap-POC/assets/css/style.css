@@ -1128,7 +1128,7 @@ section {
 }
 
 .pricing .featured {
-  background: #e03a3c;
+  background: #FF9100;
 }
 
 /*--------------------------------------------------------------
@@ -1148,7 +1148,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #e03a3c;
+  font-family: #50f702;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1176,7 +1176,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #e03a3c;
+  color: #50f702;
 }
 
 .faq .faq-list a.collapsed .icon-show {

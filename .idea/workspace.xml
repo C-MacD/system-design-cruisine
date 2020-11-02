@@ -141,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604336109702</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="editing color scheme">
+      <created>1604336695151</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604336695151</updated>
+    </task>
+    <task id="LOCAL-00014" summary="editing color scheme">
+      <created>1604336732148</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604336732148</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,17 +179,18 @@
     <MESSAGE value="deleted faq_script.js" />
     <MESSAGE value="deleted multi files" />
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing" />
+    <MESSAGE value="editing color scheme" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing color scheme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604175645033">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1604175645033" />
-    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604336109364">
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604336731997">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604336109364" />
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604336731997" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604336655479">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
