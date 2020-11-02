@@ -680,7 +680,7 @@ section {
   font-size: 24px;
   background: #fff;
   padding: 12px;
-  color: #e03a3c;
+  color: #5350c2;
   border-radius: 50px;
   border: 2px solid #fff;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
@@ -2141,7 +2141,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #e03a3c;
+  background: #FF9100;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2149,7 +2149,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #e35052;
+  background: #ffb14a;
 }
 
 #footer .credits {
@@ -2173,7 +2173,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #e03a3c;
+  background: #5350c2;
   color: #fff;
   text-decoration: none;
 }
