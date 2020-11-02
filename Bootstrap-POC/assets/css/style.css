@@ -861,7 +861,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #50f702;
+  background: #ffb14a;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -989,7 +989,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #fceaea;
+  color: #fff4e0;
   font-size: 26px;
 }
 
@@ -1026,7 +1026,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #e03a3c !important;
+  background-color: #7300ff !important;
 }
 
 @media (max-width: 767px) {

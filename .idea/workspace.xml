@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="deleted multi files">
+    <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bootstrap-POC/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap-POC/assets/css/style.css" afterDir="false" />
     </list>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603082720600</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="testing">
+      <created>1604336109702</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604336109702</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,21 +164,22 @@
     <MESSAGE value="adding css" />
     <MESSAGE value="deleted faq_script.js" />
     <MESSAGE value="deleted multi files" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted multi files" />
+    <MESSAGE value="testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604175645033">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1604175645033" />
-    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604176474313">
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604336109364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604176474313" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604176478994">
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604336109364" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604336655479">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604176478994" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604336655479" />
     <state x="0" y="0" width="470" height="900" key="dock-window-1" timestamp="1604179999058">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
