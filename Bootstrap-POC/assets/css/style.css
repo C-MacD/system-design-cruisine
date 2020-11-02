@@ -1822,7 +1822,7 @@ section {
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #e03a3c;
+  background-color: #FF9100;
 }
 
 .blog .blog-pagination {
@@ -2039,7 +2039,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #e03a3c;
+  color: #5350c2;
 }
 
 #footer .footer-top .footer-contact p {
@@ -2062,7 +2062,7 @@ section {
   display: block;
   width: 20px;
   height: 2px;
-  background: #e03a3c;
+  background: #5350c2;
   bottom: 0;
   left: 0;
 }
