@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604336732148</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="editing color scheme">
+      <created>1604337697409</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604337697409</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,10 +194,10 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1604175645033" />
-    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604336731997">
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604337697204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604336731997" />
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604337697204" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604336655479">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

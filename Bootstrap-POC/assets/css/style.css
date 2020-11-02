@@ -1176,7 +1176,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #50f702;
+  color: #ffb14a;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1220,7 +1220,7 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: #e03a3c;
+  background: #FF9100;
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
@@ -1277,10 +1277,10 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #e03a3c;
+  color: #FF9100;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f8d4d5;
+  border: 2px dotted #d5d4ff;
 }
 
 .contact .info-box h3 {
@@ -1305,7 +1305,7 @@ section {
 
 .contact .php-email-form .validate {
   display: none;
-  color: red;
+  color: #7300ff;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1314,7 +1314,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #ffb14a;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1327,7 +1327,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #7300ff;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1347,7 +1347,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #7300ff;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1376,7 +1376,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #e03a3c;
+  background: #FF9100;
   border: 0;
   padding: 10px 32px;
   color: #fff;
@@ -1385,7 +1385,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #e35052;
+  background: #ffb14a;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1437,7 +1437,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #e03a3c !important;
+  background-color: #5350c2 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1522,7 +1522,7 @@ section {
 }
 
 .blog .entry .entry-title a:hover {
-  color: #e03a3c;
+  color: #FF9100;
 }
 
 .blog .entry .entry-meta {
@@ -1565,7 +1565,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #e03a3c;
+  background: #5e5e5e;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1573,7 +1573,7 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #e65d5f;
+  background: #ffb14a;
 }
 
 .blog .entry .entry-content h3 {
@@ -1644,7 +1644,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #e03a3c;
+  color: #FF9100;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1749,7 +1749,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #e03a3c;
+  color: #FF9100;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -1796,7 +1796,7 @@ section {
 
 .blog .blog-comments .reply-form input:focus {
   box-shadow: none;
-  border-color: #ee9293;
+  border-color: #f7b95c;
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -1807,7 +1807,7 @@ section {
 
 .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: #ee9293;
+  border-color: #f7b95c;
 }
 
 .blog .blog-comments .reply-form .form-group {
