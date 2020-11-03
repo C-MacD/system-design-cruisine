@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="" />
+    <list default="true" id="bff3abba-bf9c-4a65-8eb8-43bb0552a7f4" name="Default Changelist" comment="wording edits" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,21 +207,24 @@
     <MESSAGE value="testing" />
     <MESSAGE value="editing color scheme" />
     <MESSAGE value="Finished color scheme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished color scheme" />
+    <MESSAGE value="wording edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="wording edits" />
   </component>
   <component name="WindowStateProjectService">
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604175645033">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="456" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1604175645033" />
-    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1604339912196">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1604441125425">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604339912196" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604336655479">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1604441125425" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1604441110539">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604336655479" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1604441110539" />
     <state x="0" y="0" width="470" height="900" key="dock-window-1" timestamp="1604179999058">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
