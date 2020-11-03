@@ -657,50 +657,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-  padding-top: 80px;
-}
-
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-}
-
-.counts .count-box i {
-  position: absolute;
-  top: -27px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #fff;
-  padding: 12px;
-  color: #5350c2;
-  border-radius: 50px;
-  border: 2px solid #fff;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
-}
-
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 700;
-  color: #111111;
-}
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-
-/*--------------------------------------------------------------
 # Tabs
 --------------------------------------------------------------*/
 .tabs .nav-tabs {
@@ -785,9 +741,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# browse
 --------------------------------------------------------------*/
-.services .icon-box {
+.browse .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
@@ -795,37 +751,37 @@ section {
   transition: 0.3s;
 }
 
-.services .icon-box:hover {
+.browse .icon-box:hover {
   background: #ffb14a;
 }
 
-.services .icon-box i {
+.browse .icon-box i {
   float: left;
   color: #5350C2;
   font-size: 34px;
 }
 
-.services .icon-box h4 {
+.browse .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .icon-box h4 a {
+.browse .icon-box h4 a {
   color: #fff;
   transition: 0.3s;
 }
 
-.services .icon-box h4 a:hover {
+.browse .icon-box h4 a:hover {
   text-decoration: underline;
 }
 
-.services .icon-box .icon-box:hover h4 a {
+.browse .icon-box .icon-box:hover h4 a {
   color: #5350C2;
 }
 
-.services .icon-box p {
+.browse .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
