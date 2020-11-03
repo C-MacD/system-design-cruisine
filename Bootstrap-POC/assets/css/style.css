@@ -802,7 +802,7 @@ section {
 .services .icon-box i {
   float: left;
   color: #5350C2;
-  font-size: 40px;
+  font-size: 34px;
 }
 
 .services .icon-box h4 {
@@ -2176,4 +2176,25 @@ section {
   background: #5350c2;
   color: #fff;
   text-decoration: none;
+}
+
+
+.thm_button{
+  background-color: #5350C2;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.thm_button:hover {
+  background-color: #562772;
+  color: white;
+  
 }
