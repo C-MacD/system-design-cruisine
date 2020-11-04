@@ -2139,7 +2139,7 @@ section {
   background-color: #5350C2;
   border: none;
   border-radius: 6px;
-  color: black;
+  color: white;
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
@@ -2158,4 +2158,29 @@ section {
 #signup_lnk{
   font-size: 14px;
   padding-right: 70px;
+}
+
+#co_content{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+#co_item{
+  padding: 20px;
+  text-align: center;
+}
+
+.centerpiece{
+  background-color: rgb(182, 219, 242);
+  border-style: outset;
+  border-color: black;
+  display: inline-block;
+  color: black;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  height:auto;
+  text-align: left;
+  width: auto;
 }
