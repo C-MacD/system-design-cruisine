@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #7300ff;
+  color: #562772;
 }
 
 .nav-menu .drop-down ul {
@@ -2153,4 +2153,9 @@ section {
   background-color: #562772;
   color: white;
   
+}
+
+#signup_lnk{
+  font-size: 14px;
+  padding-right: 70px;
 }
