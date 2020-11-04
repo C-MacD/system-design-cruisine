@@ -1,0 +1,9 @@
+Version: 2.0.1
+  - Update Bootstrap v5.0 to Alpha 2
+  - Updated all outdated third party vendor libraries to their latest versions
+  
+Version: 2.0.0
+  - Initial release with using the Bootstrap v5.0 (Alpha)
+  
+Version: 1.0.0
+  - Initial Release
