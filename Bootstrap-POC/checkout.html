@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Browse Popular Products</title>
+  <title>Checkout</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -14,12 +14,10 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/css/browse-products.css" rel="stylesheet">
+  <link href="assets/css/checkout.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -72,72 +70,52 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Browse Popular Products</li>
+          <li>Checkout</li>
         </ol>
-        <h2>Browse Popular Products</h2>
+        <h2>Checkout</h2>
 
       </div>
-
-
     </section><!-- End Breadcrumbs -->
-    
 
     <section class="inner-page">
       <div class="container" data-aos="fade-up">
-        <a href="checkout.html" class="get-started-btn" style="margin-left: 90%; margin-right: 10%;">Checkout</a>
-
+        <div id="co_content">
+          <div id="co_item">
+            <h1 id="co_header"><i class="fas fa-dolly"></i> CHECKOUT</h1>
+          </div>
+          <div id="co_item"></div>
+           <div align="center" class="centerpiece" id="co_item">
+              <form>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname">
+            </form>
+            <p>----------------------------------------------</p>
+            <form>
+              <label for="billname">Billing Name:</label>
+              <input type="text" id="billname" name="billname"><br>
+              <label for="cardnum">Card Number:</label>
+              <input type="text" id="cardnum" name="cardnum"><br>
+              <label for="expdate">Exp. Date:</label>
+                <input type="date" id="expdate" name="expdate"><br>
+                <label for="cvc">CVC:</label>
+              <input type="text" id="cvc" name="cvc">
+            </form>
+            <p>----------------------------------------------</p>
+            <a href="#confirmation" class="thm_button">CONFIRM ORDER</a>
+          </div>
+          <div align="center" class="centerpiece" id="co_item">
+              <h4 id="del_hdr">Delivering to...   <i class="fas fa-map-marked-alt"></i></h4>
+              <p>We'll deliver your groceries to the following address:</p>
+              <p>6789 Your Road</p>
+              <p>Suite 456</p>
+              <p>Your City, YS, United States 12345</p>
+              <a href="#settings" id="smol_help">Not your address? You can change this in Settings.</a><br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.899827580818!2d-73.93663858522316!3d41.7226803792349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd3e012d2c644d%3A0x8f14874c1462eb0a!2sMarist%20College%20Hancock%20Center!5e0!3m2!1sen!2sus!4v1602731578831!5m2!1sen!2sus" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
       </div>
-      <div id="products">
-        <div class="Item">
-          <div class="Title"><img class="Image" src="https://i5.peapod.com/c/SO/SOV9U.jpg" alt="Apple" width="150px">
-            <h2>Apple</h2>
-          </div>
-          <div class="Item-text">$1.99/lb</div>
-          <button>Add to Cart</button>
-        </div>
-
-        <div class="Item">
-          <div class="Title"><img class="Image" src="https://i5.peapod.com/c/7N/7N2G6.jpg" alt="Banana" width="150px">
-            <h2>Banana</h2>
-          </div>
-          <div class="Item-text">$0.74/lb</div>
-          <button>Add to Cart</button>
-        </div>
-        <div class="Item">
-          <div class="Title"><img class="Image" src="https://i5.peapod.com/c/P8/P8JJ8.jpg" alt="Eggs" width="150px">
-            <h2>Eggs</h2>
-          </div>
-          <div class="Item-text">$3.99</div>
-          <button>Add to Cart</button>
-        </div>
-        <div class="Item">
-          <div class="Title"><img class="Image" src="https://i5.peapod.com/c/LK/LKQ0B.jpg" alt="Cheese" width="150px">
-            <h2>Cheese</h2>
-          </div>
-          <div class="Item-text">$5.50</div>
-          <button>Add to Cart</button>
-        </div>
-        <div class="Item">
-          <div class="Title"><img class="Image" src="https://i5.peapod.com/c/BX/BXCQV.jpg" alt="Potatoes" width="150px">
-            <h2>Potatoes</h2>
-          </div>
-          <div class="Item-text">$1.00</div>
-          <button>Add to Cart</button>
-        </div>
-        <div class="Item">
-          <div class="Title"><img class="Image" src="https://i5.peapod.com/c/3T/3TXBE.jpg" alt="Peppers" width="150px">
-            <h2>Peppers</h2>
-          </div>
-          <div class="Item-text">$1.66</div>
-          <button>Add to Cart</button>
-        </div>
-        <div class="Item">
-          <div class="Title"><img class="Image" src="https://i5.peapod.com/c/FH/FH4VM.png" alt="Mustard" width="150px">
-            <h2>Mustard</h2>
-          </div>
-          <div class="Item-text">$1.89</div>
-          <button>Add to Cart</button>
-        </div>
     </section>
 
   </main><!-- End #main -->
